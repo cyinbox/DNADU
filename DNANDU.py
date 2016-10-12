@@ -315,7 +315,7 @@ def getRepeatSeq(seq,p):
      refSeq.append('T')
   
  strSeq=''.join(refSeq) # Convert char list to string: joining empty string!
- #print('Reference Sequence',strSeq)
+ #print('consensue repeat pattern',strSeq)
  return strSeq
  
 #------------------------------------------------------------------------------
