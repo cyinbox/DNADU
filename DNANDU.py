@@ -190,7 +190,7 @@ def getLargests(ps,n):
  l=len(ps)
  pt=sorted(ps)
  print(ps)
- ps_n=pt[l-3:l] #get 3 largest values
+ ps_n=pt[l-n:l] #get n largest values
  #print('largest:',ps_n)
  ps_idx=[]
 
